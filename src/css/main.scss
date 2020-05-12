@@ -1,0 +1,23 @@
+$h2-h3-color: #ff0096;
+$h1-color: #0095ff;
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: 10px auto;
+  background: #000;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+}
+h1 {
+  color: $h1-color;
+}
+h2 {
+  color: $h2-h3-color;
+}
+h3 {
+  color: $h2-h3-color;
+}
